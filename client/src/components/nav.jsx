@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
 import './style.css'
 export default function Nav(){
+    
     return(
         <>
         
@@ -16,6 +17,8 @@ export default function Nav(){
                 <li className='text-white menu_link'><Link to={'/Signup'} ><img src="./images/cart.png" alt="" width={25}height={25}/></Link></li>
 
                 </ul>
+
+
             </nav>
             
         </>
